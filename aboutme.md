@@ -1,16 +1,11 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: More info about myself
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I am from the Netherlands and decided to create a website about my interests in security and my learnings in some offsec certifications, as well as some other stuff.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I have been working in IT since 2005 and still enjoying it every single day, some days more than others.
+Since 2017 i have been very intested in security. later on i have taken the course eJPT and eCPPT from eLearnSecurity.
+14th of june this year (2020) i will start with the OSCP course from Offensive Security.
