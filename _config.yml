@@ -36,7 +36,7 @@ round-avatar: true
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
   email: "ribersec@ribersec.com"
-  github: https://github.com/ribersec
+  github: ribersec
   twitter: ribersec
   rss: false
 #  reddit: yourname
