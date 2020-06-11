@@ -12,3 +12,5 @@ pip install xlrd --upgrade
 
 As last we update de database
 ./windows-exploit-suggester.py --update
+
+Some Markdown text with <span style="color:blue">some *blue* text</span>.
