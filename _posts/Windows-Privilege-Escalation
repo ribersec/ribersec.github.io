@@ -3,10 +3,9 @@ One of the privilege escalation techniques is via kernel exploits.
 I have found that git clone https://github.com/GDSSecurity/Windows-Exploit-Suggester.git can help me with this.
 
 First we download the script
----
-**NOTE**
+<div class="alert-success">
 git clone git clone https://github.com/GDSSecurity/Windows-Exploit-Suggester.git
----
+</div>
 
 Next we install dependecies
 pip install xlrd --upgrade
