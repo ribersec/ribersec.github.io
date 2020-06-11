@@ -13,3 +13,4 @@ pip install xlrd --upgrade
 As last we update de database<div class="alert-info">
 ./windows-exploit-suggester.py --update
 </div>
+
