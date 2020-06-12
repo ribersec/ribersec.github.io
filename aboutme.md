@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About me
+tags: Security,OSCP,Offensive Security, Pentest, Pentesting
 subtitle: More info about myself
 ---
 As first, English is not my native language so there could be some mispeelings ;-).
