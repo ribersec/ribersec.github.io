@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows – stealing hashes
+title: Windows and Linux Privilege Escalation
 tags: [Security, OSCP, Privilege escalation, Pentest, Red-teaming]
 comments: true
 ---
