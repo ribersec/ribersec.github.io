@@ -14,8 +14,7 @@ The two tools i use for automation are;
 linux-smart-enumeration for Linux <https://github.com/diego-treitos/linux-smart-enumeration>
 winPEAS for Windows <https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite>
 
-To use lse (Linux-smart-enumeration)
-First we download the script. 
+To use lse (Linux-smart-enumeration), first we download the script. 
 <div class="alert-info">git clone git clone https://github.com/diego-treitos/linux-smart-enumeration.git
 </div>
 
@@ -24,8 +23,7 @@ Next we can use lse. you can use the -h parameter to show the options. I am not 
 </div>
 Of course you have to run this on the victim-pc or victim-server.
 
-To use winPEAS
-First we download the scripts.
+To use winPEAS ,first we download the scripts.
 <div class="alert-info">git clone git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git
 </div>
 As with the lse.sh script, you have to run this on the victim-pc or victim-server.
