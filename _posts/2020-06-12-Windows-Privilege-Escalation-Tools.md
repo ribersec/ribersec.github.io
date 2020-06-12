@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Windows and Linux Privilege Escalation Tools
+subtitle: Abusing the AlwaysInstallElevated option for privilege escalation
 tags: [Security, OSCP, Privilege escalation, Pentest, Red-teaming]
 comments: true
 ---
