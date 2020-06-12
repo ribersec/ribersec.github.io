@@ -30,7 +30,7 @@ To use winPEAS ,first we need to download the scripts.
 As with the lse.sh script, you have to run this on the victim-pc or victim-server.
 
 To transfer one of these files you have a few options you can use.
-On linux you can start a http server to download the files via the shell on the victim.
+On Kali you can start a http server to download the files via the shell on the victim.
 Other options are to transfer these files via SMB or NetCat if it is available on the victim.
 When transfering via SMB you have to setup SMB on kali.
 
