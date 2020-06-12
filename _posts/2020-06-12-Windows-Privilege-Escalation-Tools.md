@@ -6,7 +6,7 @@ tags: [Security, OSCP, Privilege escalation, Pentest, Red-teaming]
 comments: true
 ---
 
-In my preperation of the OSCP course i am learning about both linux and windows privilege escalations techniques.
+In my preperation for the OSCP course i am learning about both linux and windows privilege escalations techniques.
 There are differten escaltion techniques like escalation via kernel exploits, unqoted services, misconfigruations and stuff like that.
 I built myself a lab to practice on. 
 I have used <https://github.com/sagishahar/lpeworkshop> for the lab. Everything you need to know is in there. I did use a Win 10 machine so i had to remove the space between the md5 hashes to make the script work. Also i did create an admin account and disabled the realtime protection.
