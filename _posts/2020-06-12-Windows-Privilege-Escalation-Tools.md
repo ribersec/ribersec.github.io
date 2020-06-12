@@ -79,4 +79,4 @@ Lets go back to the new nc listener and checkout if we did catch the reverse she
 
 ![image](/assets/img/system-msiexec.png)
 
-Yes, we have shell and running it as system!
+Yes, we have a shell and running it as system!
