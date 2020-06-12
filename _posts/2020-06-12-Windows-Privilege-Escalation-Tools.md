@@ -34,7 +34,8 @@ Other options are to transfer these files via SMB or NetCat if it is available o
 When transfering via SMB you have to setup SMB on kali.
 
 To start a http server run the following command.
-<div class="alert-info"> python3 -m http.server 80</div>   // this will start a http on port 80 in the directory you currently are.
+<div class="alert-info"> python3 -m http.server 80</div>
+This will start a http on port 80 in the directory you currently are.
 
 You can now download the lse.sh if you are on Linux or winPEAS.exe if you are on Windows.
 Once you have transferd one of the files you can run it and read the output carefully for anything interesting that could lead to a privilege escalation.
