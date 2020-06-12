@@ -3,7 +3,7 @@ layout: page
 title: About me
 subtitle: More info about myself
 ---
-As first, English is not my native language so there could be some mispellings.
+As first, English is not my native language so there could be some mispeelings ;-).
 
 I am a security enthousiast and decided to create a website about my interests in security and my learnings in some offsec certifications, as well as some other stuff.
 
