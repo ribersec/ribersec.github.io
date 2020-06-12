@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows and Linux Privilege Escalation
+title: Windows and Linux Privilege Escalation Tools
 tags: [Security, OSCP, Privilege escalation, Pentest, Red-teaming]
 comments: true
 ---
