@@ -8,7 +8,7 @@ As first, English is not my native language so there could be some mispeelings ;
 
 I am a security enthousiast and decided to create a website about my interests in security and my learnings in some offsec certifications, as well as some other stuff.
 
-I have been working in IT since 2005, as a system/network administrator.
+I have been working in IT since 2005, as a system/network administrator.  
 Since 2017 i have been working as a Security Engineer/Security Officer.
 
 In my path to becoming an OSCP i have taken the courses eJPT and eCPPT from eLearnSecurity as a preperation
