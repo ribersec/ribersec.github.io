@@ -31,7 +31,7 @@ If you upload a shell and are not able to execute it then by all means leave it 
 
 Another tip is read ever line, word, sentence in the scan results do not skip a thing!  
 I have read to quick through scan results and missed alot of things that are definitly usefull, like software version, headers.  
-Don't forget to check the source of a http(s) as well.
+Don't forget to check the source of a http(s) service as well.
 
 All the boxes are vulnerable you just have to find the right exploit and use it.
 So search for exploits on the pre-installed (if you use Kali) searchsploit ( searchsploit apache 2, for example).  
