@@ -19,7 +19,7 @@ a lot of the materials. Also i am sometimes playing around on hackthebox.
 So after i did do some of the PDF and Videos i went to the labs and figured out the IP's of the boxes and started to pentest them.  
 I use autorecon which is created by Tib3rius. I am wellknow with the tool because i use it on HTB as well.  
 <https://github.com/Tib3rius/AutoRecon>  
-It is also allowd on the exam so definatly going to use it.  
+It is also allowd on the exam so definitaly going to use it.  
 
 A strong word of advise is that you should esthablish a good methodology that works for you.  
 Don't follow someone's metholodogy but create one yourself. This is could be harder then it sounds.  
