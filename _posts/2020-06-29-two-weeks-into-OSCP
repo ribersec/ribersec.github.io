@@ -33,14 +33,18 @@ Another tip is read ever line, word, sentence in the scan results do not skip a 
 I have read to quick through scan results and missed alot of things that are definitly usefull, like software version, headers.  
 Don't forget to check the source of a http(s) as well.
 
-Also the boxes are vulnerable you just have to find the right exploit and use it.
-So search for exploits on the pre-installed (if you use Kali) searchsploit 'software' 'version' ( searchsploit apache 2, for example).  
-Use to search on exploit-db.com and also start on searching exploits on github.
+All the boxes are vulnerable you just have to find the right exploit and use it.
+So search for exploits on the pre-installed (if you use Kali) searchsploit ( searchsploit apache 2, for example).  
+Get used to search on exploit-db.com and also start searching exploits on github.
 
 When you have found an exploit read the code, 9 out of 10 times there is something you need to change.
 Like an IP, port number or maybe even the payload itself (x86/x64)
 
-So untill now this are some of my advices and findings during the first 2 weeks into the OSCP.
+When you have a low shell obtained you have to transfer files to it.
+You can read my previous blogpost about Windows and Linux Privilege Escalation Tools
+<https://ribersec.com/2020-06-12-Windows-Privilege-Escalation-Tools/>
+
+So untill now these are some of my advices and findings during the first 2 weeks into the OSCP.
 While writing this i have managed to root 30 boxe so far, including Pain, Sufferance and Gh0st.
 
 One final thought is that i use the tips in the forums for almost every box.
