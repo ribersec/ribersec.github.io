@@ -12,7 +12,7 @@ The hard boxes are as anyone should already know; Pain, Humble, Sufferance, Gh0s
 If you need help or tips feel free to contact me or follow me on twitter and i will be happy to help. (no spoilers)  
 
 So it was sunday morning 07:00 am when i woke up and checked my mail and found the logon credentials for the Labs and the 
-link to download the materials. I immediatly started to work through the PDF and the video's at the same time.  
+link to download the materials.  I immediatly started to work through the PDF and the video's at the same time.  
 You guys should know that i have some experience in pentesting as i hold my eJPT and eCPPT which helped me to understand
 a lot of the materials. Also i am sometimes playing around on hackthebox.  
 
